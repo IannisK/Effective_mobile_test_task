@@ -1,0 +1,6 @@
+[Unit]
+Description=Test process monitor script launcher service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /etc/test_process_monitor/test_process_monitor.sh

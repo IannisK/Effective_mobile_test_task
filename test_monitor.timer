@@ -1,0 +1,9 @@
+[Unit]
+Description=Test process monitor timer
+
+[Timer]
+OnCalendar=minutely
+Unit=test_monitor.service
+
+[Install]
+WantedBy=timers.target
